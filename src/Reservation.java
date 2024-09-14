@@ -59,7 +59,7 @@ public class Reservation extends BaseObject {
         System.out.println(getId());
         System.out.print("Start date:");
         System.out.println(startDate);
-        System.out.print("End date");
+        System.out.print("End date:");
         System.out.println(endDate);
         System.out.print("Price:");
         System.out.println(price);

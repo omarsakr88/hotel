@@ -42,10 +42,10 @@ public class Main {
         if (ans.equals("3")) {
             guestOperation();
         }
-        if (ans.equals("2")) {
+        if (ans.equals("4")) {
             resevationOperation();
         }
-        if (ans.equals("2")) {
+        if (ans.equals("5")) {
             print();
         }
     }
@@ -61,13 +61,13 @@ public class Main {
         if (ans.equals("1")) {
             addRoom();
         }
-        if (ans.equals("1")) {
+        if (ans.equals("2")) {
             renameRoom();
         }
-        if (ans.equals("1")) {
+        if (ans.equals("3")) {
             removeRoom();
         }
-        if (ans.equals("1")) {
+        if (ans.equals("4")) {
             printRooms();
         }
     }
@@ -82,13 +82,13 @@ public class Main {
         if (ans.equals("1")) {
             addGuest();
         }
-        if (ans.equals("1")) {
+        if (ans.equals("2")) {
             renameGuest();
         }
-        if (ans.equals("1")) {
+        if (ans.equals("3")) {
             removeGuest();
         }
-        if (ans.equals("1")) {
+        if (ans.equals("4")) {
             printGuests();
         }
     }
