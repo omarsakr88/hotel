@@ -169,6 +169,18 @@ public class Main {
     static void newReservation() {
         Reservation reservation = new Reservation();
         reservation.assignNewId();
+        printGuests();
+        Guest guest = getGuest();
+        if (guest == null) {
+            return;
+        }
+        printRooms();
+        Room room = getRoom();
+        if (room == null) {
+            return;
+        }
+        reservation.setRoom(room);
+        reservation.setGuest(guest);
         reservation.fillStartDate();
         reservation.fillEndDate();
         reservation.fillPrice();
@@ -258,4 +270,3 @@ public class Main {
     }
 
 }
-//omarrsakrr
